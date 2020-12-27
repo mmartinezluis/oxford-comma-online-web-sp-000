@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.join(" and ")
   when 3
     last_modified=" and "<<array.pop
-    last_modified<<array
+    array.push(last_modified)
     array.join(",")
   else
     last_modified=" and "<<array.pop
