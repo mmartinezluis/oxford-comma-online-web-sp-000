@@ -1,3 +1,4 @@
+require "pry"
 def oxford_comma(array)
   case array.length
   when 1
@@ -8,6 +9,7 @@ def oxford_comma(array)
     last_modified=" and "<<array.pop
     array.push(last_modified)
     array.join(",")
+    binding.pry
   else
     last_modified=" and "<<array.pop
     last_modified<<array
