@@ -12,4 +12,5 @@ def oxford_comma(array)
     last_modified="and"<<array.pop
     last_modified<<array
     array.join(",")
+  end
 end
