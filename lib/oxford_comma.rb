@@ -13,7 +13,7 @@ def oxford_comma(array)
 
   else
     last_modified="and "<<array.pop
-    last_modified<<array
+    array.push(last_modified)
     array.join(", ")
   end
 end
