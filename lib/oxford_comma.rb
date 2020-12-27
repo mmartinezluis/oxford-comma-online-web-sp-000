@@ -7,9 +7,9 @@ def oxford_comma(array)
     array.join(" and ")
   when 3
     binding.pry
-    last_modified=" and "<<array.pop
+    last_modified="and "<<array.pop
     array.push(last_modified)
-    array.join(",")
+    array.join(", ")
 
   else
     last_modified=" and "<<array.pop
