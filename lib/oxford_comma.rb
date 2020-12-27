@@ -8,8 +8,8 @@ def oxford_comma(array)
     array.pop.join("and")
     array.join(",")
   when >3
-    
-    
-    
-    
+
+
+
+
 end
